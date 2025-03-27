@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} BuscaCEP - {{endereco.cep}} {% endblock %}</h1>
+
+    <h2>Estado: {{endereco.estado}}</h2>
+    <h2>Localidade: {{endereco.localidade}}</h2>
+    <h2>logradouro: {{endereco.logradouro}}</h2>
+    <h2>bairro: {{endereco.bairro}}</h2>
+{% endblock %}

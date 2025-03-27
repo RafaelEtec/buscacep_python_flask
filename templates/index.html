@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Atividade Flask & Python {% endblock %}</h1>
+
+    <form action="buscacep" method="post">
+        <div class="form-group">
+            <label for="cep">CEP</label>
+            <input type="text" name="cep"
+                   placeholder="00000000" class="form-control"
+                   value="{{ request.form['cep'] }}"></input>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Procurar</button>
+        </div>
+    </form>
+{% endblock %}
