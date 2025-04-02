@@ -36,3 +36,4 @@ Pronto, agora já é possível acessar a página WEB:
 - [Python](https://www.python.org/)
 - [Flask](https://flask.palletsprojects.com/en/stable/)
 - [Requests](https://pypi.org/project/requests/)
+- [ViaCep](https://viacep.com.br/)
